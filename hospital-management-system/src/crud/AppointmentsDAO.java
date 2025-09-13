@@ -121,8 +121,6 @@ public class AppointmentsDAO {
         return list;
     }
 
-
-
     // REPORTS
 
     public int getDoctorWithMostPatients() {
@@ -147,6 +145,8 @@ public class AppointmentsDAO {
     }
 
 
+    // most visited patients
+    
     public int getPatientWithMostVisits() {
         String sql = "SELECT patient_id, COUNT(*) AS visit_count " +
                 "FROM appointments " +
@@ -196,3 +196,4 @@ public class AppointmentsDAO {
     }
 
 }
+
