@@ -1,4 +1,3 @@
-
 import java.sql.Date;
 
 public class Loan {
@@ -30,3 +29,4 @@ public class Loan {
                 " | LoanDate: " + loanDate + " | ReturnDate: " + returnDate;
     }
 }
+
