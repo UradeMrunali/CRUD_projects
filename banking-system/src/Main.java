@@ -16,7 +16,6 @@ public class Main {
 
             Scanner sc = new Scanner(System.in);
             int choice;
-
             do {
                 System.out.println("\n===== Banking System Menu =====");
                 System.out.println("1. Add Customer");
