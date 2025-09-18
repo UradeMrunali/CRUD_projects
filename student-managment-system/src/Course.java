@@ -1,5 +1,3 @@
-//package com.example.crud;
-
 public class Course {
     private int id;
     private String title;
@@ -28,4 +26,5 @@ public class Course {
         return id + " | " + title + " | " + credits;
     }
 }
+
 
