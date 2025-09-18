@@ -1,5 +1,3 @@
-//package com.example.crud;
-
 import java.util.List;
 
 public class App {
