@@ -31,6 +31,7 @@ public class TableInitializer {
                     "balance DECIMAL(12,2))");
         }
 
+    
         if (!checkIfTableExists(conn, "transactions")) {
             stmt.executeUpdate("CREATE TABLE transactions (" +
                     "id SERIAL PRIMARY KEY, " +
@@ -41,3 +42,4 @@ public class TableInitializer {
         }
     }
 }
+
